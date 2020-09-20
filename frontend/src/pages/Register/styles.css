@@ -13,7 +13,7 @@
 .register-container .content{
     width: 100%;
     padding: 96px;
-    background: #f0f0f5;
+    background: #f5edf8;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 
@@ -32,6 +32,7 @@
 .register-container .content section h1{
     margin: 64px 0 32px;
     font-size: 32px;
+    color: #cc47c8;
 }
 
 .register-container .content section p{
@@ -50,6 +51,11 @@
 .register-container .content form input{
     margin-top: 8px;
 
+}
+
+.register-container .content form img{
+    width: 100%;
+    max-width: 450px;
 }
 
 .register-container .content form .input-group{

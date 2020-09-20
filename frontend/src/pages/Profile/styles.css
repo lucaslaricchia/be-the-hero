@@ -19,7 +19,7 @@
 
 .profile-container header img{
     height: 64px;
-
+    border-radius: 100%;
 }
 
 .profile-container header a{

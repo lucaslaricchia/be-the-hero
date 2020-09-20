@@ -9,7 +9,7 @@ export default function Profile(){
     const ongId = localStorage.getItem('ongId');
     const [incidents, setIncidents] = useState([]);
     const history = useHistory();
-
+    
     useEffect(() => {
         api.get('profile', {
             headers: {
@@ -41,7 +41,7 @@ export default function Profile(){
     return (
         <div className="profile-container">
         <header>
-            <img src="" alt="Be The Hero"/>
+            <img src="https://pbs.twimg.com/profile_images/1306247814771544065/qFtQjwYa_400x400.jpg" alt="Be The Hero"/>
             <span>Bem vinda, {ongName}</span>
             <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
             <button onClick={handleLogout}type="button">
@@ -49,7 +49,7 @@ export default function Profile(){
             </button>
         </header>
 
-        <h1>Casos Cadastrados</h1>
+        <h1>Horários disponiveis</h1>
 
         <ul>
             {incidents.map(incident =>(

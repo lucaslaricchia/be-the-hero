@@ -9,7 +9,7 @@
 
 body{
     font: 400 14px Roboto, sans-serif;
-    background: #f0f0f5;
+    background: #f0ddf0;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -49,7 +49,7 @@ form textarea {
 .button{
     width: 100%;
     height: 60px;
-    background: #e02041;
+    background: #cc47c8;
     border: 0;
     border-radius: 8px;
     color: #FFF;
@@ -73,7 +73,7 @@ form textarea {
     display: flex;
     align-items: center;
     margin-top: 40px;
-    color: #41414d;
+    color: #cc47c8;
     font-size: 18px;
     text-decoration: none;
     font-weight: 500;
